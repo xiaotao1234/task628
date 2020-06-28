@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bz1"
+        android:orientation="vertical"
+        tools:context=".DzActivity">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="#22FFFFFF"
+            android:layout_height="@dimen/dp_40">
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="@dimen/dp_40"
+                android:layout_height="@dimen/dp_40"
+                android:src="@drawable/back"
+                android:layout_marginStart="@dimen/dp_5"
+                android:background="@drawable/buttton_change_bg"
+                android:padding="@dimen/dp_10"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="@dimen/dp_12"
+                android:text="遥控遥测设备控制"
+                android:textColor="#FFFFFF"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/dp_4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_30"
+            android:orientation="horizontal">
+            <View
+                android:layout_width="@dimen/dp_5"
+                android:layout_height="match_parent"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <View
+                    android:id="@+id/js"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_5"
+                    android:background="@drawable/dz_top_bg"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="浸水"
+                    android:textSize="@dimen/dp_9"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"/>
+            </LinearLayout>
+            <View
+                android:layout_width="@dimen/dp_5"
+                android:layout_height="match_parent"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <View
+                    android:id="@+id/mj"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_5"
+                    android:background="@drawable/dz_top_bg"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="门禁"
+                    android:gravity="center"
+                    android:textSize="@dimen/dp_9"
+                    android:textColor="#FFFFFF"/>
+            </LinearLayout>
+            <View
+                android:layout_width="@dimen/dp_5"
+                android:layout_height="match_parent"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <View
+                    android:id="@+id/yw"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_5"
+                    android:background="@drawable/dz_top_bg"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="烟雾"
+                    android:textSize="@dimen/dp_9"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"/>
+            </LinearLayout>
+            <View
+                android:layout_width="@dimen/dp_5"
+                android:layout_height="match_parent"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <View
+                    android:id="@+id/yd"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_5"
+                    android:background="@drawable/dz_top_bg"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="移动"
+                    android:textSize="@dimen/dp_9"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"/>
+            </LinearLayout>
+            <View
+                android:layout_width="@dimen/dp_5"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:orientation="horizontal">
+
+            <com.huari.ui.CirclePainView
+                android:id="@+id/ampere"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:all="1000"
+                app:one_big_step="200"
+                app:one_small_step="20"
+                app:text_bottom="电流"
+                app:unit="mA"
+                app:title_text="电流表"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#11FFFFFF" />
+
+            <com.huari.ui.CirclePainView
+                android:id="@+id/voltmeter"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:all="500"
+                app:one_big_step="100"
+                app:one_small_step="10"
+                app:text_bottom="电压"
+                app:pointer="#00FF00"
+                app:unit="V"
+                app:title_text="电压表"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#11FFFFFF" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="1">
+                    <com.huari.ui.LinView
+                        android:id="@+id/temperature1"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp_270"
+                        android:layout_weight="1"
+                        app:low="-50"
+                        app:heigh="70"
+                        app:one_step="20"
+                        app:text_bottom_lin="温度"
+                        app:unit_lin="℃"
+                        app:titile_text="室内温度"/>
+                    <com.huari.ui.LinView
+                        android:id="@+id/temperature"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp_270"
+                        android:layout_weight="1"
+                        app:low="-50"
+                        app:heigh="70"
+                        app:one_step="20"
+                        app:text_bottom_lin="温度"
+                        app:unit_lin="℃"
+                        app:titile_text="室外温度"/>
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#11FFFFFF" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="1">
+                    <com.huari.ui.LinView
+                        android:id="@+id/humidity"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp_270"
+                        app:fill="#00FF00"
+                        android:layout_weight="1"
+                        app:low="-50"
+                        app:heigh="70"
+                        app:one_step="20"
+                        app:text_bottom_lin="湿度"
+                        app:titile_text="室外湿度"
+                        app:unit_lin="%"/>
+                    <com.huari.ui.LinView
+                        android:id="@+id/humidity11"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp_270"
+                        app:fill="#00FF00"
+                        app:one_step="20"
+                        app:low="-50"
+                        app:heigh="70"
+                        android:layout_weight="1"
+                        app:text_bottom_lin="湿度"
+                        app:titile_text="室内湿度"
+                        app:unit_lin="%"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#11FFFFFF" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#11FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <!--<View-->
+                <!--android:layout_width="1dp"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:layout_weight="1" />-->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="@dimen/dp_35"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="设备开关"
+                        android:textColor="#FFFFFF"
+                        android:textSize="@dimen/dp_9" />
+
+                    <com.huari.ui.SwitchButton
+                        android:id="@+id/sb_custom0"
+                        style="@style/SwitchButtonStyle"
+                        android:layout_width="@dimen/dp_50"
+                        android:layout_height="@dimen/dp_25"
+                        android:layout_gravity="center"
+                        app:kswBackRadius="2dp"
+                        app:kswThumbColor="#8800FF00"
+                        app:kswThumbRadius="2dp"
+                        app:kswThumbRangeRatio="2.2"
+                        app:kswTintColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/sb_text0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="OFF"
+                        android:textColor="#99FFFFFF"
+                        android:textSize="@dimen/dp_9" />
+                </LinearLayout>
+
+
+                <!--<View-->
+                <!--android:layout_width="1dp"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:layout_weight="1" />-->
+
+                <View
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#11FFFFFF" />
+
+                <!--<View-->
+                <!--android:layout_width="1dp"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:layout_weight="1" />-->
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="@dimen/dp_35"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="总闸开关"
+                        android:textColor="#FFFFFF"
+                        android:textSize="@dimen/dp_9" />
+
+                    <com.huari.ui.SwitchButton
+                        android:id="@+id/sb_custom1"
+                        style="@style/SwitchButtonStyle"
+                        android:layout_width="@dimen/dp_50"
+                        android:layout_height="@dimen/dp_25"
+                        android:layout_gravity="center"
+                        app:kswBackRadius="2dp"
+                        app:kswThumbColor="#9999FF00"
+                        app:kswThumbRadius="2dp"
+                        app:kswThumbRangeRatio="2.2"
+                        app:kswTintColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/sb_text1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="OFF"
+                        android:textColor="#99FFFFFF"
+                        android:textSize="@dimen/dp_9" />
+                </LinearLayout>
+
+                <!--<View-->
+                <!--android:layout_width="1dp"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:layout_weight="1" />-->
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#11FFFFFF" />
+
+                <!--<View-->
+                <!--android:layout_width="1dp"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:layout_weight="1" />-->
+
+                <LinearLayout
+                    android:id="@+id/light_layout"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="@dimen/dp_35"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="灯"
+                        android:textColor="#FFFFFF"
+                        android:textSize="@dimen/dp_9" />
+
+                    <com.huari.ui.SwitchButton
+                        android:id="@+id/sb_custom2"
+                        style="@style/SwitchButtonStyle"
+                        android:layout_width="@dimen/dp_50"
+                        android:layout_height="@dimen/dp_25"
+                        android:layout_gravity="center"
+                        app:kswBackRadius="2dp"
+                        app:kswThumbColor="#9933FFBB"
+                        app:kswThumbRadius="2dp"
+                        app:kswThumbRangeRatio="2.2"
+                        app:kswTintColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/sb_text2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="OFF"
+                        android:textColor="#99FFFFFF"
+                        android:textSize="@dimen/dp_9" />
+                </LinearLayout>
+
+                <!--<View-->
+                <!--android:layout_width="1dp"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:layout_weight="1" />-->
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#11FFFFFF" />
+
+                <!--<View-->
+                <!--android:layout_width="1dp"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:layout_weight="1" />-->
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/air_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="@dimen/dp_35"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="空调"
+                        android:textColor="#FFFFFF"
+                        android:textSize="@dimen/dp_9" />
+
+                    <com.huari.ui.SwitchButton
+                        android:id="@+id/sb_custom3"
+                        style="@style/SwitchButtonStyle"
+                        android:layout_width="@dimen/dp_50"
+                        android:layout_height="@dimen/dp_25"
+                        android:layout_gravity="center"
+                        app:kswBackRadius="2dp"
+                        app:kswThumbColor="#559999"
+                        app:kswThumbRadius="2dp"
+                        app:kswThumbRangeRatio="2.2"
+                        app:kswTintColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/sb_text3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="OFF"
+                        android:textColor="#99FFFFFF"
+                        android:textSize="@dimen/dp_9" />
+                </LinearLayout>
+
+                <!--<View-->
+                <!--android:layout_width="1dp"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:layout_weight="1" />-->
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/big_data_map_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom">
+        <ImageView
+            android:id="@+id/map_data_up_down"
+            android:layout_width="@dimen/dp_60"
+            android:layout_height="@dimen/dp_40"
+            android:paddingLeft="@dimen/dp_15"
+            android:paddingRight="@dimen/dp_15"
+            android:paddingTop="@dimen/dp_15"
+            android:paddingBottom="@dimen/dp_5"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/pull_up"/>
+        <LinearLayout
+            android:id="@+id/data_map_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/contain_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/dp_20">
+                <TextView
+                    android:id="@+id/map_data_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/dp_8"
+                    android:gravity="center"/>
+                <com.baidu.mapapi.map.MapView
+                    android:id="@+id/bmapsView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/dp_200"
+                    android:layout_marginBottom="@dimen/dp_20"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/load_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#88000000">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="@dimen/dp_25"
+                android:layout_height="@dimen/dp_25"
+                android:src="@drawable/load_dz"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="加载中"
+                android:textSize="@dimen/dp_10"
+                android:layout_marginTop="@dimen/dp_3"
+                android:textColor="#FFFFFF"
+                android:layout_centerInParent="true"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</FrameLayout>

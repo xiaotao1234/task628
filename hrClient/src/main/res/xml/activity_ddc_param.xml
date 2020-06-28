@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <PreferenceCategory android:title="">
+        <EditTextPreference
+            android:defaultValue="101.7"
+            android:key="ddc_CenterFreq"
+            android:summary="单位: MHz"
+            android:title="中心频率 （MHz）"/>
+        <ListPreference
+            android:defaultValue="150"
+            android:entries="@array/IFBandWidth_list"
+            android:entryValues="@array/IFBandWidth_list"
+            android:key="ddc_IFBandWidth"
+            android:summary="单位: kHz"
+            android:title="中频带宽（kHz）"/>
+        <ListPreference
+            android:defaultValue="120"
+            android:entries="@array/Attenuation_list"
+            android:entryValues="@array/Attenuation_list"
+            android:key="ddc_Attenuation"
+            android:summary=""
+            android:title="接收机衰减 （dB）"/>
+        <ListPreference
+            android:defaultValue=""
+            android:entries="@array/RFMode_list"
+            android:entryValues="@array/RFMode_list"
+            android:key="ddc_RFMode"
+            android:summary=""
+            android:title="射频模式"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="信道1">
+        <EditTextPreference
+            android:defaultValue="101.7"
+            android:key="ddc1_CenterFreq"
+            android:summary="单位: MHz"
+            android:title="中心频率 （MHz）"/>
+        <ListPreference
+            android:defaultValue="120"
+            android:entries="@array/demoBandWidth_list"
+            android:entryValues="@array/demoBandWidth_list"
+            android:key="ddc1_DemoBandWidth"
+            android:summary="单位: kHz"
+            android:title="解调带宽 （kHz）"/>
+        <ListPreference
+            android:defaultValue="FM"
+            android:entries="@array/DemodulationType_list"
+            android:entryValues="@array/DemodulationType_list"
+            android:key="ddc1_DemodulationType"
+            android:summary=""
+            android:title="解调制式"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="信道2">
+        <EditTextPreference
+            android:defaultValue="102.6"
+            android:key="ddc2_CenterFreq"
+            android:summary="单位: MHz"
+            android:title="中心频率 （MHz）"/>
+        <ListPreference
+            android:defaultValue="120"
+            android:entries="@array/demoBandWidth_list"
+            android:entryValues="@array/demoBandWidth_list"
+            android:key="ddc2_DemoBandWidth"
+            android:summary="单位: kHz"
+            android:title="解调带宽 （kHz）"/>
+        <ListPreference
+            android:defaultValue="FM"
+            android:entries="@array/DemodulationType_list"
+            android:entryValues="@array/DemodulationType_list"
+            android:key="ddc2_DemodulationType"
+            android:summary=""
+            android:title="解调制式"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="">
+    </PreferenceCategory>
+</PreferenceScreen>

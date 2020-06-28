@@ -1,0 +1,1698 @@
+[
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_more.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\more.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable_check_yes_bg.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable\\check_yes_bg.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_singleset.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\singleset.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_text_item.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\text_item.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_orientation_icon.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\orientation_icon.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_dz.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_dz.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_window_bottom.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\window_bottom.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_pause_white.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\ic_pause_white.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_qc1.jpg.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\qc1.jpg"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_mscansetactivity.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\mscansetactivity.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bigcexiang.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\bigcexiang.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_de.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\de.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_customdialog.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\customdialog.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\xml_activity_mscan_param.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\xml\\activity_mscan_param.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable_edit_back.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable\\edit_back.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_guideoneview.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\guideoneview.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_iclauncher_icon.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\iclauncher_icon.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_tian.jpg.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\tian.jpg"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\xml_activity_system_param.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\xml\\activity_system_param.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_file_list.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_file_list.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_pinpufenximenu.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\pinpufenximenu.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_spinnertextview.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\spinnertextview.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_not_check_icon.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\not_check_icon.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_popupwindow.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\popupwindow.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_ninebar.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\ninebar.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable_button_line_bg.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable\\button_line_bg.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_turn_right.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\turn_right.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_save_white_24dp.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\ic_save_white_24dp.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_uncheck_icon.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\uncheck_icon.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_backup.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_backup.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_search_offline.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\search_offline.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_listviewwithitu.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\listviewwithitu.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_next1.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\next1.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_file.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\file.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\anim_out.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\anim\\out.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_parametersset.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\parametersset.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_all_record_query.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_all_record_query.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\menu_pin_duan_scanning.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\menu\\pin_duan_scanning.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_mscan.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_mscan.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_qc3.jpg.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\qc3.jpg"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_main3.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_main3.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable_login_animotor_bg.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable\\login_animotor_bg.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_login.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\login.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_server_manager.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_server_manager.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_download_manager.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\download_manager.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_find_file.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_find_file.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\xml_activity_mscan_control.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\xml\\activity_mscan_control.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_login_top_icon.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\login_top_icon.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_find_file_icon.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\find_file_icon.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_station_list.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_station_list.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable_station_show_list.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable\\station_show_list.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_do_for_floder.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\do_for_floder.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_download.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\download.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_detailstationinfo.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\detailstationinfo.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_pinduansetactivity.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\pinduansetactivity.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_generalset.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\generalset.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_four_test.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_four_test.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\menu_singlefreactionbar.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\menu\\singlefreactionbar.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_data_search_textbottom.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\data_search_textbottom.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_fragment_pscan.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\fragment_pscan.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bigliebiao.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\bigliebiao.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_actionbarview.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\actionbarview.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\menu_unmaned_stations.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\menu\\unmaned_stations.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_recent_data.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\recent_data.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable_lay_circle.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable\\lay_circle.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_sg4.jpg.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\sg4.jpg"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_play_icon.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\play_icon.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_barbutton.jpg.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\barbutton.jpg"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_stop_icon.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\stop_icon.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_g2.jpg.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\g2.jpg"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_add_data.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\add_data.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_graph.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_graph.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_e.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\e.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bg.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\bg.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable_text_bg.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable\\text_bg.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_add.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\add.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_more1.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\more1.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_recover.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\recover.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\menu_map_showing.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\menu\\map_showing.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable_circle_min_bg.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable\\circle_min_bg.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_llchazhao.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\llchazhao.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bg2.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\bg2.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_play_arrow_black_24dp.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\ic_play_arrow_black_24dp.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_a.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\a.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_pinpufenxichanggui.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\pinpufenxichanggui.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_fselector1.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\fselector1.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_day_item.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\day_item.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\menu_station_list.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\menu\\station_list.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_station_function_item.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\station_function_item.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_circle_bg3.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\circle_bg3.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_mscanlistview.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\mscanlistview.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-land_main2.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout-xlarge-land\\main2.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_main_top.jpg.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\main_top.jpg"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_fragment_ok.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\fragment_ok.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_logo_main_type_blue.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\logo_main_type_blue.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_unmaned_stations.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_unmaned_stations.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\xml_activity_hope_param.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\xml\\activity_hope_param.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_fragment_ddf.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\fragment_ddf.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_offline_localmap_list.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\offline_localmap_list.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_ipsetdialog.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\ipsetdialog.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_df3.jpg.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\df3.jpg"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_file_about2.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_file_about2.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_manager_icon.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\manager_icon.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_back2.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\back2.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\xml_activity_single_param.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\xml\\activity_single_param.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\menu_from_map.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\menu\\from_map.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_record_list_item.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\record_list_item.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_prepare.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_prepare.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_push_down.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\push_down.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_information_icon.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\information_icon.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_llsinglef.jpg.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\llsinglef.jpg"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_back1.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\back1.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable_buttton_change_bg.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable\\buttton_change_bg.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_df2.jpg.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\df2.jpg"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_setback.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\setback.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_frommapparameterset.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\frommapparameterset.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_map_popwindow.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\map_popwindow.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\menu_baidumap.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\menu\\baidumap.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable_button_bg.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable\\button_bg.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable_window_bg_black.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable\\window_bg_black.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_welcome.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\welcome.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_save_black_24dp.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\ic_save_black_24dp.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_custom_paramdialog2.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\custom_paramdialog2.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_sg1.jpg.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\sg1.jpg"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_record_list.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_record_list.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_window_top.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\window_top.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_groupico.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\groupico.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_a48.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\a48.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_logo_main_top.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\logo_main_top.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_playlist_play_white_24dp.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\ic_playlist_play_white_24dp.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_nomanchilditem.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\nomanchilditem.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_download_map.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\download_map.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable_window_bg.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable\\window_bg.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_fragment_singlemeasure.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\fragment_singlemeasure.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_fragment_multi.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\fragment_multi.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_deviceitem.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\deviceitem.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_downoad_icon.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\downoad_icon.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bigwurenzhan.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\bigwurenzhan.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_mapstationitem.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\mapstationitem.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable_check_bg.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable\\check_bg.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_popwindow_list_item.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\popwindow_list_item.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_sg3.jpg.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\sg3.jpg"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable_dz_top_bg.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable\\dz_top_bg.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\menu_ok.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\menu\\ok.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\menu_mscanning.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\menu\\mscanning.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_mscan_parameter.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\mscan_parameter.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_history_analysis.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_history_analysis.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_push_icon.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\push_icon.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_f.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\f.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_orientation_cion.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\orientation_cion.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_list_white_24dp.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\ic_list_white_24dp.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_nosave_white_24dp.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\ic_nosave_white_24dp.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_lantian.jpg.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\lantian.jpg"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_recycle_item.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\recycle_item.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_mscanlistviewdata.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\mscanlistviewdata.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_botton_list_item.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\botton_list_item.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-port_main2.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout-xlarge-port\\main2.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_push_edit_view.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\push_edit_view.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_pop_window.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_pop_window.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\xml_network_security_config.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ditu.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\ditu.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_setting_icon.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\setting_icon.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_fragment_check.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\fragment_check.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_df1.jpg.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\df1.jpg"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_file_manager_icon.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\file_manager_icon.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_sg2.jpg.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\sg2.jpg"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_saomiao.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\saomiao.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_newscrollview.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\newscrollview.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bigfenxi.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\bigfenxi.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_turnplate_inner_icon.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\turnplate_inner_icon.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_fenxi.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\fenxi.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_check_icon.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\check_icon.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_expand_icon.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\expand_icon.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bigditu.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\bigditu.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_fragment_freqhopping.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\fragment_freqhopping.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_pinpfxset.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_pinpfxset.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\menu_ppfxset.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\menu\\ppfxset.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_down.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\down.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_history_pin_duan.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_history_pin_duan.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_music_icon.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\music_icon.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\menu_scheduled_task.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\menu\\scheduled_task.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable_circle_bg.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable\\circle_bg.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\menu_frequency_scanning.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\menu\\frequency_scanning.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_baidumap.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_baidumap.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_webview.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\webview.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_home1_icon.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\home1_icon.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_popwindow_add_floder.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\popwindow_add_floder.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\menu_map.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\menu\\map.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_search_black.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\search_black.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\menu_ipset.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\menu\\ipset.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\xml_activity_ddf_control.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\xml\\activity_ddf_control.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable_edittextback.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable\\edittextback.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_server_manager_icon.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\server_manager_icon.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_launcher_icon.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\launcher_icon.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_next_icon.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\next_icon.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_file_show_search_item.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\file_show_search_item.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_more_vert_white_24dp.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\ic_more_vert_white_24dp.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_jihua.jpg.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\jihua.jpg"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_pagerthreetext.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\pagerthreetext.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_set.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_set.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\menu_savepdsm.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\menu\\savepdsm.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_target.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\target.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_appico.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\appico.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_pull_up.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\pull_up.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_search_data.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\search_data.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_big_parameter.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\big_parameter.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_orientation_cion1.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\orientation_cion1.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable_offline_top.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable\\offline_top.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_ppfxchildblue.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\ppfxchildblue.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_qc2.jpg.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\qc2.jpg"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_pingpu_icon.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\pingpu_icon.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ls_icon.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\ls_icon.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_nobody_station.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\nobody_station.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_splash.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\splash.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_analyze1_cion.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\analyze1_cion.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable_press_background.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable\\press_background.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_guidethreeview.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\guidethreeview.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_window_bottom_item.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\window_bottom_item.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_next.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\next.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_dialog_custom_progress.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\dialog_custom_progress.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_setting.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\setting.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_play_arrow_white_24dp.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\ic_play_arrow_white_24dp.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_setparam_layout.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_setparam_layout.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_player.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_player.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_main31.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_main31.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_list.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\list.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_welcome.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_g1.jpg.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\g1.jpg"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_splash2.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\splash2.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_music_list.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_music_list.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_scheduled_task.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_scheduled_task.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_back.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\back.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\xml_activity_single_control.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\xml\\activity_single_control.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_task.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\task.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_analysistitlebar.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\analysistitlebar.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_unclicked.jpg.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\unclicked.jpg"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_g3.jpg.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\g3.jpg"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable_redius_back.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable\\redius_back.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_window_text_item.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\window_text_item.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_fragment_pin_duan_set.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\fragment_pin_duan_set.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\menu_searchinterference.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\menu\\searchinterference.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_stationitem.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\stationitem.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\anim_in.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\anim\\in.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_offline2.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_offline2.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable_edit_background_write.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable\\edit_background_write.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_pop_window_view.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\pop_window_view.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_month_item.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\month_item.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_wav_icon.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\wav_icon.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable_direct_re_back.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable\\direct_re_back.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_iquare.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_iquare.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_music_list_item.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\music_list_item.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable_check_bg_no.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable\\check_bg_no.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_alarm.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\alarm.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_scan_icon.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\scan_icon.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_pinduansanmiao.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_pinduansanmiao.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_maphead.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\maphead.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable_progressbar_color.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable\\progressbar_color.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\xml_activity_ddc_param.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\xml\\activity_ddc_param.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bg1.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\bg1.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_back_history.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\back_history.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_spectrums_analysis.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_spectrums_analysis.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_main_ic_top.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\main_ic_top.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_edit_search_bg.9.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\edit_search_bg.9.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable_lift_on_touch.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable\\lift_on_touch.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\menu_single_set.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\menu\\single_set.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_delete_warn.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\delete_warn.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_previous.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\previous.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_station_unman_map.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\station_unman_map.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_unmanstationbutton.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\unmanstationbutton.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_fragment_line.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\fragment_line.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_marka.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\icon_marka.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_month_data.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_month_data.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable_button_bg_window.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable\\button_bg_window.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_file_icon.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\file_icon.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable_main_top_item_bg.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable\\main_top_item_bg.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_list_black_24dp.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\ic_list_black_24dp.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\xml_activity_ddc_control.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\xml\\activity_ddc_control.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable_dz_top_bg_green.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable\\dz_top_bg_green.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_search_map_item.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\search_map_item.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_delete.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\delete.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_device_data.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\device_data.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_ok.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_ok.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_qc4.jpg.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\qc4.jpg"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_fragment_circle.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\fragment_circle.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_floder_icon.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\floder_icon.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_analyze_icon.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\analyze_icon.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_stationmarker.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\stationmarker.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_df4.jpg.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\df4.jpg"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_mappopuviewcontent.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\mappopuviewcontent.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\menu_pinpufenxiitem.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\menu\\pinpufenxiitem.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_login_marker.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\login_marker.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_setting_offline.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\setting_offline.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_stationname.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\stationname.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_mark.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\icon_mark.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_history_list.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_history_list.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable_circle_bg_month.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable\\circle_bg_month.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_xl2.jpg.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\xl2.jpg"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_up.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\up.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_lock.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_lock.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_layout_bottom_item_item.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\layout_bottom_item_item.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bc.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\bc.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_xl1.jpg.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\xl1.jpg"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_liebiao.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\liebiao.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_llpinpufenxi.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\llpinpufenxi.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_main2.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\main2.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_major.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_major.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_setting.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_fragment_single_set.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\fragment_single_set.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_search_bg_nor.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\btn_search_bg_nor.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ganrao.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\ganrao.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_markb.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\icon_markb.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_separate.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\separate.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_plan.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\plan.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_record_show_onew.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_record_show_onew.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_unmanchildlineaylayout.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\unmanchildlineaylayout.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ls_set_icon1.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\ls_set_icon1.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_customspinnertextview.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\customspinnertextview.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_wurenzhan.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\wurenzhan.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_main22.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\main22.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_fragment_pscan_setting.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\fragment_pscan_setting.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_ppfxwithspinner.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\ppfxwithspinner.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_titlebar.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\titlebar.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_delete_floder.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\delete_floder.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_ppfxgrouplinear.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\ppfxgrouplinear.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_splashscreen.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\splashscreen.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_lljiancezhan.jpg.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\lljiancezhan.jpg"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_more_vert_black_24dp.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\ic_more_vert_black_24dp.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ip.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\ip.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_nomanmore.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\nomanmore.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_map_showing.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_map_showing.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_home_mbank_3_normal.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\home_mbank_3_normal.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_offline.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_offline.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_fragment_mscan.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\fragment_mscan.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_cexiang.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\cexiang.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_title.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\title.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_searh_file.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_searh_file.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\xml_activity_pscan_param.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\xml\\activity_pscan_param.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_home.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\home.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_changguimenu.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\changguimenu.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_set_icon.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\set_icon.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_measuer.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_measuer.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_searchinterference.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_searchinterference.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_pack_up.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\pack_up.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_fragment_pin_duan_scanning.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\fragment_pin_duan_scanning.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_history_data.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_history_data.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bz1.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\bz1.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_backup_manager.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\backup_manager.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_expandableselector.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\expandableselector.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_next3.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\next3.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_mapselectlistview.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\mapselectlistview.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_info.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\info.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_fragment_map.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\fragment_map.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_guidetwoview.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\guidetwoview.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_llwurenzhan.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\llwurenzhan.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\menu_guide.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\menu\\guide.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_nomangroup.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\nomangroup.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_fragment_fscan.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\fragment_fscan.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_load_dz.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\load_dz.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable_redius_back_black.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable\\redius_back_black.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_back_black.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\back_black.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable_button_bg_unsliod.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable\\button_bg_unsliod.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_frequencyscanning.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_frequencyscanning.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_nobody_station1.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\nobody_station1.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_ppfxchildwithet.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\ppfxchildwithet.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_backups_icon.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\backups_icon.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_history.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_history.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\menu_spectrums_analysis.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\menu\\spectrums_analysis.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_lock_icon.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\lock_icon.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable_button_bg_write.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable\\button_bg_write.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_main2.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_main2.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\menu_saveppfx.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\menu\\saveppfx.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_search.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\search.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_file_about.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_file_about.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_client.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\client.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_pinduansanmiao_history.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_pinduansanmiao_history.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_xl4.jpg.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\xl4.jpg"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_arrow.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\arrow.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_turnplate_mask_unlogin_normal.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\turnplate_mask_unlogin_normal.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable_button_bg_black.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable\\button_bg_black.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_history_df.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\history_df.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_popwindow_item.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\popwindow_item.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ls_set_icon.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\ls_set_icon.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bar.jpg.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\bar.jpg"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_custom_paramdialog.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\custom_paramdialog.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_lltask.jpg.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\lltask.jpg"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_pinpumenutitlebar.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\pinpumenutitlebar.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_file_show_item.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\file_show_item.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_widget_head_bg.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\widget_head_bg.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_guide.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_guide.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_xl3.jpg.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\xl3.jpg"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_map_icon.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\map_icon.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_llditu.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\llditu.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\xml_activity_hope_control.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\xml\\activity_hope_control.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_fu1.jpg.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\fu1.jpg"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\xml_activity_pscan_control.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\xml\\activity_pscan_control.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_offlines.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_offlines.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\menu_pin_duan_set.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\menu\\pin_duan_set.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_arrow3.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\arrow3.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_server_manager_list.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\server_manager_list.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bnbg.jpg.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\bnbg.jpg"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_newnomanchilditem.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\newnomanchilditem.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_welcomebg.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\welcomebg.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\menu_welcome.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\menu\\welcome.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_pinpufenxititlebar.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\pinpufenxititlebar.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_file_display.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_file_display.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_advancedset.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\advancedset.xml"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_down_off_map.png.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\drawable-hdpi\\down_off_map.png"
+    },
+    {
+        "merged": "D:\\619\\Handheld\\hrClient\\build\\intermediates\\res\\merged\\debug\\layout_activity_login2.xml.flat",
+        "source": "D:\\619\\Handheld\\hrClient\\src\\main\\res\\layout\\activity_login2.xml"
+    }
+]

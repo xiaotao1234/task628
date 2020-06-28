@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <PreferenceCategory android:title="">
+        <ListPreference
+            android:defaultValue="120"
+            android:entries="@array/Attenuation_list"
+            android:entryValues="@array/Attenuation_list"
+            android:key="Attenuation"
+            android:summary=""
+            android:title="接收机衰减 （dB）"/>
+
+        <ListPreference
+            android:defaultValue=""
+            android:entries="@array/RFMode_list"
+            android:entryValues="@array/RFMode_list"
+            android:key="RFMode"
+            android:summary=""
+            android:title="射频模式"/>
+
+        <EditTextPreference
+            android:defaultValue="88"
+            android:key="StartFreq"
+            android:summary="单位: MHz"
+            android:title="起始频率 （MHz）"/>
+
+        <EditTextPreference
+            android:defaultValue="108"
+            android:key="EndFreq"
+            android:summary="单位: MHz"
+            android:title = "终止频率 （MHz）"/>
+
+        <ListPreference
+            android:defaultValue="25"
+            android:entries="@array/freq_step_list"
+            android:entryValues="@array/freq_step_list"
+            android:key="FreqStep"
+            android:summary="单位: kHz"
+            android:title="频率步进（kHz）"/>
+
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

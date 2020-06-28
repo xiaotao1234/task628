@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <PreferenceCategory android:title="">
+    <EditTextPreference
+        android:defaultValue="101.7"
+        android:key="CenterFreq"
+        android:summary="单位: MHz"
+        android:title="中心频率 （MHz）"/>
+
+    <ListPreference
+        android:defaultValue="120"
+        android:entries="@array/demoBandWidth_list"
+        android:entryValues="@array/demoBandWidth_list"
+        android:key="DemoBandWidth"
+        android:summary="单位: kHz"
+        android:title="解调带宽（kHz）"/>
+
+    <ListPreference
+        android:defaultValue="FM"
+        android:entries="@array/DemodulationType_list"
+        android:entryValues="@array/DemodulationType_list"
+        android:key="DemodulationType"
+        android:summary=""
+        android:title="解调制式"/>
+
+    <ListPreference
+        android:defaultValue="150"
+        android:entries="@array/IFBandWidth_list"
+        android:entryValues="@array/IFBandWidth_list"
+        android:key="IFBandWidth"
+        android:summary="单位: kHz"
+        android:title="中频带宽（kHz）"/>
+
+    <ListPreference
+        android:defaultValue="120"
+        android:entries="@array/Attenuation_list"
+        android:entryValues="@array/Attenuation_list"
+        android:key="Attenuation"
+        android:summary=""
+        android:title="接收机衰减 （dB）"/>
+
+    <ListPreference
+        android:defaultValue=""
+        android:entries="@array/RFMode_list"
+        android:entryValues="@array/RFMode_list"
+        android:key="RFMode"
+        android:summary=""
+        android:title="射频模式"/>
+
+    <CheckBoxPreference
+        android:title="声音开关"
+        android:key="AudioSwitch"
+        android:summary="测量同时播放解调声音"
+        android:defaultValue="true" />
+
+    <SwitchPreference
+        android:title="频谱开关"
+        android:key="SpectrumSwitch"
+        android:summary="接收机传输频谱数据"
+        android:defaultValue="true"/>
+
+    <SwitchPreference
+        android:title="IQ数据开关"
+        android:key="IQSwitch"
+        android:summary="接收机传输IQ数据"
+        android:defaultValue="true"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

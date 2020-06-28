@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="">
+        <CheckBoxPreference
+            android:title="显示瀑布图"
+            android:key="pscan_falls_switch"
+            android:summary="瀑布图显示开关"
+            android:defaultValue="true" />
+        <SwitchPreference
+            android:key="pscan_max_switch"
+            android:title="显示信号列表"
+            android:summary="信号列表开关"
+            android:defaultValue="true"
+            />
+        <SwitchPreference
+            android:key="pscan_max_switch"
+            android:title="显示最大值"
+            android:summary="频谱图显示最大值"
+            android:defaultValue="true"
+            />
+        <SwitchPreference
+            android:key="pscan_min_switch"
+            android:title="显示最小值"
+            android:summary="频谱图显示最小值"
+            android:defaultValue="true"
+            />
+        <SwitchPreference
+            android:key="pscan_avg_switch"
+            android:title="显示平均值"
+            android:summary="频谱图显示平均值"
+            android:defaultValue="true"
+            />
+
+        <ListPreference
+            android:defaultValue="单频测量"
+            android:entries="@array/trigger_list"
+            android:entryValues="@array/trigger_list"
+            android:key="trigger"
+            android:summary=""
+            android:title="触发测量选择"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>

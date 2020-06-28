@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.brianPlummer:tinydancer:0.1.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/357eae5ab9aec96efabf858a45f127e9/jetified-tinydancer-0.1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/357eae5ab9aec96efabf858a45f127e9/jetified-tinydancer-0.1.2/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.brianPlummer/tinydancer/0.1.2/e3fa46593d2b880dfc86c1954724d287a79382ec/tinydancer-0.1.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.brianPlummer/tinydancer/0.1.2/796208bc72bd3fc1f3b1c6d8a665b14bf6f6c01f/tinydancer-0.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

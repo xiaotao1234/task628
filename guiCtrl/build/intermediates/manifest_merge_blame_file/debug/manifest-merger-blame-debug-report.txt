@@ -1,0 +1,79 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.huari.diskactivity"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\619\Handheld\guiCtrl\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->D:\619\Handheld\guiCtrl\src\main\AndroidManifest.xml
+10
+11    <!-- <uses-sdk -->
+12    <!-- android:minSdkVersion="8"/> -->
+13
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\619\Handheld\guiCtrl\src\main\AndroidManifest.xml:10:5-67
+14-->D:\619\Handheld\guiCtrl\src\main\AndroidManifest.xml:10:22-64
+15
+16    <application
+16-->D:\619\Handheld\guiCtrl\src\main\AndroidManifest.xml:12:5-46:19
+17        android:allowBackup="true"
+17-->D:\619\Handheld\guiCtrl\src\main\AndroidManifest.xml:13:9-35
+18        android:label="@string/app_name"
+18-->D:\619\Handheld\guiCtrl\src\main\AndroidManifest.xml:14:9-41
+19        android:theme="@style/AppTheme" >
+19-->D:\619\Handheld\guiCtrl\src\main\AndroidManifest.xml:15:9-40
+20        <activity
+20-->D:\619\Handheld\guiCtrl\src\main\AndroidManifest.xml:16:9-19:20
+21            android:name="com.huari.diskactivity.DiskActivity"
+21-->D:\619\Handheld\guiCtrl\src\main\AndroidManifest.xml:17:13-63
+22            android:label="@string/app_name" >
+22-->D:\619\Handheld\guiCtrl\src\main\AndroidManifest.xml:18:13-45
+23        </activity>
+24        <activity
+24-->D:\619\Handheld\guiCtrl\src\main\AndroidManifest.xml:20:9-23:20
+25            android:name="com.huari.diskactivity.TwoActivity"
+25-->D:\619\Handheld\guiCtrl\src\main\AndroidManifest.xml:21:13-62
+26            android:label="@string/app_name" >
+26-->D:\619\Handheld\guiCtrl\src\main\AndroidManifest.xml:22:13-45
+27        </activity>
+28        <activity
+28-->D:\619\Handheld\guiCtrl\src\main\AndroidManifest.xml:24:9-27:20
+29            android:name="com.huari.diskactivity.LastActivity"
+29-->D:\619\Handheld\guiCtrl\src\main\AndroidManifest.xml:25:13-63
+30            android:label="@string/app_name" >
+30-->D:\619\Handheld\guiCtrl\src\main\AndroidManifest.xml:26:13-45
+31        </activity>
+32        <activity
+32-->D:\619\Handheld\guiCtrl\src\main\AndroidManifest.xml:28:9-31:20
+33            android:name="com.huari.diskactivity.ListViewsActivity"
+33-->D:\619\Handheld\guiCtrl\src\main\AndroidManifest.xml:29:13-68
+34            android:label="@string/title_activity_list_views" >
+34-->D:\619\Handheld\guiCtrl\src\main\AndroidManifest.xml:30:13-62
+35        </activity>
+36        <activity
+36-->D:\619\Handheld\guiCtrl\src\main\AndroidManifest.xml:32:9-36:20
+37            android:name="com.huari.diskactivity.TestActivity"
+37-->D:\619\Handheld\guiCtrl\src\main\AndroidManifest.xml:33:13-63
+38            android:label="@string/title_activity_test" >
+38-->D:\619\Handheld\guiCtrl\src\main\AndroidManifest.xml:34:13-56
+39        </activity>
+40        <activity
+40-->D:\619\Handheld\guiCtrl\src\main\AndroidManifest.xml:37:9-40:20
+41            android:name="com.huari.diskactivity.PartWaveActivity"
+41-->D:\619\Handheld\guiCtrl\src\main\AndroidManifest.xml:38:13-67
+42            android:label="@string/title_activity_part_wave" >
+42-->D:\619\Handheld\guiCtrl\src\main\AndroidManifest.xml:39:13-61
+43        </activity>
+44        <activity
+44-->D:\619\Handheld\guiCtrl\src\main\AndroidManifest.xml:41:9-45:20
+45            android:name="com.huari.diskactivity.SingActivity"
+45-->D:\619\Handheld\guiCtrl\src\main\AndroidManifest.xml:42:13-63
+46            android:label="@string/title_activity_sing" >
+46-->D:\619\Handheld\guiCtrl\src\main\AndroidManifest.xml:43:13-56
+47        </activity>
+48    </application>
+49
+50</manifest>

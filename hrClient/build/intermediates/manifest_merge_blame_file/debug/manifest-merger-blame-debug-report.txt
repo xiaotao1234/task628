@@ -1,0 +1,868 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.huari.client"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml
+10    <!-- <uses-sdk -->
+11    <!-- android:minSdkVersion="8"/> -->
+12    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+12-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:9:5-79
+12-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:9:22-76
+13    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+13-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:10:5-12:47
+13-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:11:9-57
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:13:5-67
+14-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:13:22-64
+15    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+15-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:14:5-75
+15-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:14:22-72
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:15:5-66
+16-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:15:22-63
+17    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" /> -->
+17-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:16:5-68
+17-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:16:22-65
+18    <!-- <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" /> -->
+19    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+19-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:18:5-71
+19-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:18:22-68
+20    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+20-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:19:5-78
+20-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:19:22-75
+21
+22    <supports-screens
+22-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:21:5-26:39
+23        android:anyDensity="true"
+23-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:22:9-34
+24        android:largeScreens="true"
+24-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:23:9-36
+25        android:normalScreens="true"
+25-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:24:9-37
+26        android:resizeable="true"
+26-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:25:9-34
+27        android:smallScreens="true" /> <!-- 使用网络功能所需权限 -->
+27-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:26:9-36
+28    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- <uses-permission android:name="android.permission.INTERNET" /> -->
+28-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:27:5-79
+28-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:27:22-76
+29    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+29-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:28:5-76
+29-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:28:22-73
+30    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /> <!-- SDK离线地图和cache功能需要读写外部存储器 -->
+30-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:29:5-76
+30-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:29:22-73
+31    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+31-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:30:5-81
+31-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:30:22-78
+32
+33    <!-- </uses-permission> -->
+34    <!-- 获取设置信息和详情页直接拨打电话需要以下权限 -->
+35    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+35-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:34:5-75
+35-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:34:22-72
+36    <uses-permission android:name="android.permission.CALL_PHONE" /> <!-- 使用定位功能所需权限,demo已集成百度定位SDK,不使用定位功能可去掉以下6项 -->
+36-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:35:5-69
+36-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:35:22-66
+37    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+37-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:36:5-79
+37-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:36:22-76
+38
+39    <permission android:name="android.permission.BAIDU_LOCATION_SERVICE" />
+39-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:38:5-76
+39-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:38:17-73
+40
+41    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" />
+41-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:40:5-81
+41-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:40:22-78
+42    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" > -->
+42-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:41:5-81
+42-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:41:22-78
+43    <!-- </uses-permission> -->
+44    <uses-permission android:name="android.permission.ACCESS_GPS" />
+44-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:43:5-69
+44-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:43:22-66
+45    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" /> <!-- <uses-permission android:name="android.permission.READ_PHONE_STATE" /> -->
+45-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:44:5-81
+45-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:44:22-78
+46    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+46-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:45:5-80
+46-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:45:22-77
+47    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+47-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:46:5-79
+47-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:46:22-76
+48    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+48-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:47:5-81
+48-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:47:22-78
+49    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+49-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:48:5-77
+49-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:48:22-74
+50
+51    <!-- 华为 -->
+52    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+52-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:51:5-90
+52-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:51:22-88
+53
+54    <!-- 三星 -->
+55    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+55-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:54:5-85
+55-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:54:22-83
+56    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" />
+56-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:55:5-86
+56-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:55:22-84
+57    <!-- OPPO -->
+58    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+58-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:57:5-81
+58-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:57:22-79
+59    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" />
+59-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:58:5-82
+59-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:58:22-80
+60    <!-- 联想ZUK -->
+61    <uses-permission android:name="android.permission.READ_APP_BADGE" />
+61-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:60:5-72
+61-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:60:22-70
+62    <!-- HTC -->
+63    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+63-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:62:5-80
+63-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:62:22-78
+64    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" />
+64-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:63:5-82
+64-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:63:22-80
+65
+66    <!-- To store the heap dumps and leak analysis results. -->
+67    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+67-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\14320\.gradle\caches\transforms-2\files-2.1\144a4db02444d288b8a9d8da98d6bcd4\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:23:5-80
+67-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\14320\.gradle\caches\transforms-2\files-2.1\144a4db02444d288b8a9d8da98d6bcd4\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:23:22-77
+68
+69    <application
+69-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:65:5-367:19
+70        android:name="com.huari.tools.SysApplication"
+70-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:66:9-54
+71        android:allowBackup="true"
+71-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:67:9-35
+72        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+72-->[androidx.core:core:1.3.0] C:\Users\14320\.gradle\caches\transforms-2\files-2.1\881ed38d8f80da7a88cb010386d80aa8\core-1.3.0\AndroidManifest.xml:24:18-86
+73        android:debuggable="true"
+74        android:icon="@mipmap/ic_launcher"
+74-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:68:9-43
+75        android:label="@string/app_name"
+75-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:69:9-41
+76        android:largeHeap="true"
+76-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:70:9-33
+77        android:networkSecurityConfig="@xml/network_security_config"
+77-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:71:9-69
+78        android:requestLegacyExternalStorage="true"
+78-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:74:9-52
+79        android:supportsRtl="true"
+79-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:75:9-35
+80        android:testOnly="true"
+81        android:theme="@style/AppTheme" >
+81-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:72:9-40
+82        <activity
+82-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:77:9-78:71
+83            android:name="com.huari.client.BackupActivity"
+83-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:77:19-49
+84            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+84-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:78:13-69
+85        <activity
+85-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:79:9-81:72
+86            android:name="com.huari.client.LockActivity"
+86-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:80:13-41
+87            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+87-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:81:13-69
+88
+89        <meta-data
+89-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:83:9-85:64
+90            android:name="com.baidu.lbsapi.API_KEY"
+90-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:84:13-52
+91            android:value="CpqPodGyg87rY8qZFoMMunYLSXOprd2h" />
+91-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:85:13-61
+92        <meta-data
+92-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:87:9-88:35
+93            android:name="android.notch_support"
+93-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:87:20-56
+94            android:value="true" />
+94-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:88:13-33
+95        <meta-data
+95-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:87:9-88:35
+96            android:name="android.notch_support"
+96-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:87:20-56
+97            android:value="true" />
+97-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:88:13-33
+98        <meta-data
+98-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:87:9-88:35
+99            android:name="android.notch_support"
+99-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:87:20-56
+100            android:value="true" />
+100-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:88:13-33
+101
+102        <service
+102-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:96:9-99:41
+103            android:name="com.baidu.location.f"
+103-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:97:13-48
+104            android:enabled="true"
+104-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:98:13-35
+105            android:process=":remote" />
+105-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:99:13-38
+106        <service android:name="com.huari.service.MainService" >
+106-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:100:9-104:19
+106-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:100:18-62
+107            <intent-filter>
+107-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:101:13-103:29
+108                <action android:name="com.huari.service.mainservice" />
+108-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:102:17-72
+108-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:102:25-69
+109            </intent-filter>
+110        </service>
+111        <service android:name="com.huari.service.TaskService" >
+111-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:105:9-109:19
+111-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:105:18-62
+112            <intent-filter>
+112-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:106:13-108:29
+113                <action android:name="com.huari.service.taskservice" />
+113-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:107:17-72
+113-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:107:25-69
+114            </intent-filter>
+115        </service>
+116        <service
+116-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:110:9-113:40
+117            android:name="com.huari.NetMonitor.WindowService"
+117-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:111:13-62
+118            android:enabled="true"
+118-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:112:13-35
+119            android:exported="false" />
+119-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:113:13-37
+120
+121        <activity
+121-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:115:9-124:20
+122            android:name="com.huari.client.WelcomeActivity"
+122-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:116:13-44
+123            android:label="@string/title_activity_welcome"
+123-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:117:13-59
+124            android:theme="@style/WelcomeTheme" >
+124-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:118:13-48
+125            <intent-filter>
+125-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:119:13-123:29
+126                <action android:name="android.intent.action.MAIN" />
+126-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:120:17-69
+126-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:120:25-66
+127
+128                <category android:name="android.intent.category.LAUNCHER" />
+128-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:122:17-77
+128-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:122:27-74
+129            </intent-filter>
+130        </activity>
+131        <activity
+131-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:125:9-129:54
+132            android:name="com.huari.client.MainActivity"
+132-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:126:13-41
+133            android:icon="@drawable/appico"
+133-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:127:13-44
+134            android:label="@string/title_activity_main"
+134-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:128:13-56
+135            android:theme="@style/Theme.AppCompat" />
+135-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:129:13-51
+136        <activity
+136-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:130:9-133:74
+137            android:name="com.huari.client.GuideActivity"
+137-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:131:13-42
+138            android:label="@string/title_activity_guide"
+138-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:132:13-57
+139            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+139-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:133:13-71
+140        <activity
+140-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:134:9-143:20
+141            android:name="com.huari.client.SpectrumsAnalysisActivity"
+141-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:135:13-54
+142            android:label="@string/title_activity_spectrums_analysis"
+142-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:136:13-70
+143            android:theme="@style/Theme.AppCompat" >
+143-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:137:13-51
+144            <intent-filter>
+144-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:138:13-142:29
+145                <action android:name="function0" />
+145-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:139:17-52
+145-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:139:25-49
+146
+147                <category android:name="android.intent.category.DEFAULT" />
+147-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:141:17-76
+147-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:141:27-73
+148            </intent-filter>
+149        </activity>
+150        <activity
+150-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:144:9-153:20
+151            android:name="com.huari.client.SinglefrequencyDFActivity"
+151-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:145:13-54
+152            android:label="@string/title_activity_frequency_scanning"
+152-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:146:13-70
+153            android:theme="@style/Theme.AppCompat" >
+153-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:147:13-51
+154            <intent-filter>
+154-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:148:13-152:29
+155                <action android:name="function12" />
+155-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:149:17-53
+155-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:149:25-50
+156
+157                <category android:name="android.intent.category.DEFAULT" />
+157-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:141:17-76
+157-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:141:27-73
+158            </intent-filter>
+159        </activity>
+160        <activity
+160-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:154:9-162:20
+161            android:name="com.huari.client.SearchinterferenceActivity"
+161-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:155:13-55
+162            android:label="@style/Theme.AppCompat" >
+162-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:156:13-51
+163            <intent-filter>
+163-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:157:13-161:29
+164                <action android:name="function8" />
+164-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:158:17-52
+164-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:158:25-49
+165
+166                <category android:name="android.intent.category.DEFAULT" />
+166-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:141:17-76
+166-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:141:27-73
+167            </intent-filter>
+168        </activity>
+169        <activity
+169-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:163:9-174:20
+170            android:name="com.huari.client.MapShowingActivity"
+170-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:164:13-47
+171            android:icon="@drawable/ditu"
+171-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:165:13-42
+172            android:label="@string/title_activity_map_showing"
+172-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:166:13-63
+173            android:logo="@drawable/ditu"
+173-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:167:13-42
+174            android:theme="@style/Theme.AppCompat" >
+174-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:168:13-51
+175            <intent-filter>
+175-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:169:13-173:29
+176                <action android:name="function44" />
+176-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:170:17-53
+176-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:170:25-50
+177
+178                <category android:name="android.intent.category.DEFAULT" />
+178-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:141:17-76
+178-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:141:27-73
+179            </intent-filter>
+180        </activity>
+181        <activity
+181-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:175:9-185:20
+182            android:name="com.huari.client.UnmanedStationsActivity"
+182-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:176:13-52
+183            android:icon="@drawable/list"
+183-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:177:13-42
+184            android:label="@string/title_activity_unmaned_stations"
+184-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:178:13-68
+185            android:theme="@style/Theme.AppCompat" >
+185-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:179:13-51
+186            <intent-filter>
+186-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:180:13-184:29
+187                <action android:name="function5" />
+187-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:181:17-52
+187-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:181:25-49
+188
+189                <category android:name="android.intent.category.DEFAULT" />
+189-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:141:17-76
+189-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:141:27-73
+190            </intent-filter>
+191        </activity>
+192        <activity
+192-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:186:9-194:20
+193            android:name="com.huari.client.ScheduledTaskActivity"
+193-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:187:13-50
+194            android:label="@string/title_activity_scheduled_task" >
+194-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:188:13-66
+195            <intent-filter>
+195-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:189:13-193:29
+196                <action android:name="function16" />
+196-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:190:17-53
+196-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:190:25-50
+197
+198                <category android:name="android.intent.category.DEFAULT" />
+198-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:141:17-76
+198-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:141:27-73
+199            </intent-filter>
+200        </activity>
+201        <activity
+201-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:195:9-208:20
+202            android:name="com.huari.client.StationListActivity"
+202-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:196:13-48
+203            android:icon="@drawable/list"
+203-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:197:13-42
+204            android:label="@string/title_activity_station_list"
+204-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:198:13-64
+205            android:theme="@style/Theme.AppCompat" >
+205-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:199:13-51
+206            <intent-filter>
+206-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:200:13-207:29
+207                <action android:name="function1" />
+207-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:201:17-52
+207-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:201:25-49
+208                <action android:name="function6" />
+208-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:202:17-52
+208-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:202:25-49
+209                <action android:name="function2" />
+209-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:203:17-52
+209-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:203:25-49
+210                <action android:name="function3" />
+210-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:204:17-52
+210-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:204:25-49
+211
+212                <category android:name="android.intent.category.DEFAULT" />
+212-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:141:17-76
+212-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:141:27-73
+213            </intent-filter>
+214        </activity>
+215        <activity
+215-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:209:9-214:55
+216            android:name="com.huari.client.PPFXsetActivity"
+216-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:210:13-44
+217            android:label="@string/title_activity_ppfxset"
+217-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:211:13-59
+218            android:logo="@drawable/setback"
+218-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:212:13-45
+219            android:theme="@style/Theme.AppCompat"
+219-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:213:13-51
+220            android:windowSoftInputMode="adjustPan" />
+220-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:214:13-52
+221        <activity
+221-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:215:9-224:20
+222            android:name="com.huari.client.MScanActivity"
+222-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:216:13-42
+223            android:label="@string/title_activity_mscan"
+223-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:217:13-57
+224            android:theme="@style/Theme.AppCompat" >
+224-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:218:13-51
+225            <intent-filter>
+225-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:219:13-223:29
+226                <action android:name="function19" />
+226-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:220:17-53
+226-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:220:25-50
+227
+228                <category android:name="android.intent.category.DEFAULT" />
+228-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:141:17-76
+228-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:141:27-73
+229            </intent-filter>
+230        </activity>
+231        <activity
+231-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:225:9-234:20
+232            android:name="com.huari.client.PinDuanScanningActivity"
+232-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:226:13-52
+233            android:label="@string/title_activity_pin_duan_scanning"
+233-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:227:13-69
+234            android:theme="@style/Theme.AppCompat" >
+234-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:228:13-51
+235            <intent-filter>
+235-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:229:13-233:29
+236                <action android:name="function18" />
+236-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:230:17-53
+236-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:230:25-50
+237
+238                <category android:name="android.intent.category.DEFAULT" />
+238-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:141:17-76
+238-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:141:27-73
+239            </intent-filter>
+240        </activity>
+241        <activity
+241-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:235:9-239:54
+242            android:name="com.huari.client.PinDuanSetActivity"
+242-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:236:13-47
+243            android:label="@string/title_activity_pin_duan_set"
+243-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:237:13-64
+244            android:logo="@drawable/setback"
+244-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:238:13-45
+245            android:theme="@style/Theme.AppCompat" />
+245-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:239:13-51
+246        <activity
+246-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:240:9-244:54
+247            android:name="com.huari.client.MscanSetActivity"
+247-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:241:13-45
+248            android:label="@string/title_activity_mscan_set"
+248-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:242:13-61
+249            android:logo="@drawable/setback"
+249-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:243:13-45
+250            android:theme="@style/Theme.AppCompat" />
+250-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:244:13-51
+251        <activity
+251-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:245:9-254:20
+252            android:name="com.huari.client.MapActivity"
+252-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:246:13-40
+253            android:label="@string/title_activity_map"
+253-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:247:13-55
+254            android:theme="@style/Theme.AppCompat" >
+254-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:248:13-51
+255            <intent-filter>
+255-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:249:13-253:29
+256                <action android:name="function4" />
+256-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:250:17-52
+256-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:250:25-49
+257
+258                <category android:name="android.intent.category.DEFAULT" />
+258-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:141:17-76
+258-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:141:27-73
+259            </intent-filter>
+260        </activity> <!-- TODO 集成：1.2、添加推送所需要的服务和广播 -->
+261        <activity
+261-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:255:9-259:72
+262            android:name="com.huari.client.SingleSetActivity"
+262-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:256:13-46
+263            android:label="@string/title_activity_single_set"
+263-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:257:13-62
+264            android:logo="@drawable/setback"
+264-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:258:13-45
+265            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+265-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:259:13-69
+266        <activity
+266-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:260:9-264:54
+267            android:name="com.huari.client.FromMapActivity"
+267-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:261:13-44
+268            android:label="@string/title_activity_from_map"
+268-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:262:13-60
+269            android:logo="@drawable/setback"
+269-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:263:13-45
+270            android:theme="@style/Theme.AppCompat" />
+270-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:264:13-51
+271        <activity
+271-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:265:9-267:72
+272            android:name="com.huari.client.LoginActivity"
+272-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:266:13-42
+273            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+273-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:267:13-69
+274        <activity
+274-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:268:9-271:20
+275            android:name="com.huari.client.Main2Activity"
+275-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:269:13-42
+276            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+276-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:270:13-69
+277        </activity>
+278        <activity
+278-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:272:9-275:20
+279            android:name="com.huari.client.Login2Activity"
+279-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:273:13-43
+280            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+280-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:274:13-69
+281        </activity>
+282        <activity
+282-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:276:9-278:72
+283            android:name="com.huari.client.RecordListActivity"
+283-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:277:13-47
+284            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+284-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:278:13-69
+285        <activity
+285-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:279:9-281:72
+286            android:name="com.huari.client.RecordShowOnewActivity"
+286-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:280:13-51
+287            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+287-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:281:13-69
+288        <activity
+288-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:282:9-284:72
+289            android:name="com.huari.client.AllRecordQueryActivity"
+289-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:283:13-51
+290            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+290-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:284:13-69
+291        <activity
+291-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:285:9-287:72
+292            android:name="com.huari.client.FileDisplayActivity"
+292-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:286:13-48
+293            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+293-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:287:13-69
+294        <activity
+294-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:288:9-290:72
+295            android:name="com.huari.client.FileAbout"
+295-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:289:13-38
+296            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+296-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:290:13-69
+297        <activity
+297-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:291:9-293:72
+298            android:name="com.huari.client.FileListActivity"
+298-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:292:13-45
+299            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+299-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:293:13-69
+300        <activity
+300-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:294:9-296:72
+301            android:name="com.huari.client.SearhFileActivity"
+301-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:295:13-46
+302            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+302-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:296:13-69
+303        <activity
+303-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:297:9-299:72
+304            android:name="com.huari.client.SettingActivity"
+304-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:298:13-44
+305            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+305-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:299:13-69
+306        <activity
+306-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:300:9-302:72
+307            android:name="com.huari.client.PlayerActivity"
+307-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:301:13-43
+308            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+308-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:302:13-69
+309        <activity
+309-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:303:9-305:72
+310            android:name="com.huari.client.IquareActivity"
+310-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:304:13-43
+311            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+311-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:305:13-69
+312        <activity
+312-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:306:9-308:72
+313            android:name="com.huari.client.GraphActivity"
+313-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:307:13-42
+314            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+314-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:308:13-69
+315        <activity
+315-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:309:9-311:72
+316            android:name="com.huari.client.ServerManagerActivity"
+316-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:310:13-50
+317            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+317-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:311:13-69
+318
+319        <service
+319-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:313:9-316:39
+320            android:name="com.huari.service.ForHideServiceIcon"
+320-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:314:13-64
+321            android:enabled="true"
+321-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:315:13-35
+322            android:exported="true" />
+322-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:316:13-36
+323
+324        <activity
+324-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:318:9-320:72
+325            android:name="com.huari.client.DzActivity"
+325-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:319:13-39
+326            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+326-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:320:13-69
+327        <activity android:name="com.huari.client.PrepareActivity" />
+327-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:321:9-53
+327-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:321:19-50
+328        <activity
+328-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:322:9-324:72
+329            android:name="com.huari.client.OfflineDownloadActivity"
+329-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:323:13-52
+330            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+330-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:324:13-69
+331        <activity
+331-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:325:9-327:72
+332            android:name="com.huari.client.MusicListActivity"
+332-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:326:13-46
+333            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+333-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:327:13-69
+334        <activity
+334-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:328:9-330:72
+335            android:name="com.huari.client.HistoryDataActivity"
+335-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:329:13-48
+336            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+336-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:330:13-69
+337        <activity
+337-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:331:9-333:72
+338            android:name="com.huari.client.HistoryListActivity"
+338-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:332:13-48
+339            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+339-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:333:13-69
+340        <activity
+340-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:334:9-336:72
+341            android:name="com.huari.client.HistoryDFActivity"
+341-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:335:13-46
+342            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+342-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:336:13-69
+343        <activity
+343-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:337:9-341:20
+344            android:name="com.huari.client.MajorActivity"
+344-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:338:13-42
+345            android:theme="@style/AppTheme"
+345-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:340:13-44
+346            android:windowFullscreen="true" >
+346-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:339:13-44
+347        </activity>
+348        <activity
+348-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:342:9-344:72
+349            android:name="com.huari.client.Main3Activity"
+349-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:343:13-42
+350            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+350-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:344:13-69
+351        <activity
+351-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:345:9-347:72
+352            android:name="com.huari.client.HistoryAnalysisActivity"
+352-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:346:13-52
+353            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+353-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:347:13-69
+354        <activity
+354-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:348:9-350:72
+355            android:name="com.huari.client.HistoryPinDuanActivity"
+355-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:349:13-51
+356            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+356-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:350:13-69
+357        <activity
+357-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:351:9-354:72
+358            android:name="com.huari.client.MonthDataActivity"
+358-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:352:13-46
+359            android:screenOrientation="fullSensor"
+359-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:353:13-51
+360            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+360-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:354:13-69
+361        <activity
+361-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:355:9-357:72
+362            android:name="com.huari.client.FindFileActivity"
+362-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:356:13-45
+363            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+363-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:357:13-69
+364        <activity
+364-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:358:9-360:72
+365            android:name="com.huari.client.SetActivity"
+365-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:359:13-40
+366            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+366-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:360:13-69
+367        <activity
+367-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:361:9-363:72
+368            android:name="com.huari.client.OfflineActivity"
+368-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:362:13-44
+369            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+369-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:363:13-69
+370        <activity
+370-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:364:9-366:72
+371            android:name="com.huari.client.SetparamActivity"
+371-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:365:13-45
+372            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+372-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:366:13-69
+373
+374        <service
+374-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\14320\.gradle\caches\transforms-2\files-2.1\144a4db02444d288b8a9d8da98d6bcd4\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:29:9-32:45
+375            android:name="com.squareup.leakcanary.internal.HeapAnalyzerService"
+375-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\14320\.gradle\caches\transforms-2\files-2.1\144a4db02444d288b8a9d8da98d6bcd4\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:30:13-80
+376            android:enabled="false"
+376-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\14320\.gradle\caches\transforms-2\files-2.1\144a4db02444d288b8a9d8da98d6bcd4\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:31:13-36
+377            android:process=":leakcanary" />
+377-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\14320\.gradle\caches\transforms-2\files-2.1\144a4db02444d288b8a9d8da98d6bcd4\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:32:13-42
+378        <service
+378-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\14320\.gradle\caches\transforms-2\files-2.1\144a4db02444d288b8a9d8da98d6bcd4\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:33:9-36:45
+379            android:name="com.squareup.leakcanary.DisplayLeakService"
+379-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\14320\.gradle\caches\transforms-2\files-2.1\144a4db02444d288b8a9d8da98d6bcd4\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:34:13-70
+380            android:enabled="false"
+380-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\14320\.gradle\caches\transforms-2\files-2.1\144a4db02444d288b8a9d8da98d6bcd4\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:35:13-36
+381            android:process=":leakcanary" />
+381-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\14320\.gradle\caches\transforms-2\files-2.1\144a4db02444d288b8a9d8da98d6bcd4\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:36:13-42
+382
+383        <provider
+383-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\14320\.gradle\caches\transforms-2\files-2.1\144a4db02444d288b8a9d8da98d6bcd4\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:38:9-46:20
+384            android:name="com.squareup.leakcanary.internal.LeakCanaryFileProvider"
+384-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\14320\.gradle\caches\transforms-2\files-2.1\144a4db02444d288b8a9d8da98d6bcd4\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:39:13-83
+385            android:authorities="com.squareup.leakcanary.fileprovider.com.huari.client"
+385-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\14320\.gradle\caches\transforms-2\files-2.1\144a4db02444d288b8a9d8da98d6bcd4\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:40:13-88
+386            android:exported="false"
+386-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\14320\.gradle\caches\transforms-2\files-2.1\144a4db02444d288b8a9d8da98d6bcd4\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:41:13-37
+387            android:grantUriPermissions="true" >
+387-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\14320\.gradle\caches\transforms-2\files-2.1\144a4db02444d288b8a9d8da98d6bcd4\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:42:13-47
+388            <meta-data
+388-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\14320\.gradle\caches\transforms-2\files-2.1\144a4db02444d288b8a9d8da98d6bcd4\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:43:13-45:66
+389                android:name="android.support.FILE_PROVIDER_PATHS"
+389-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\14320\.gradle\caches\transforms-2\files-2.1\144a4db02444d288b8a9d8da98d6bcd4\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:44:17-67
+390                android:resource="@xml/leak_canary_file_paths" />
+390-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\14320\.gradle\caches\transforms-2\files-2.1\144a4db02444d288b8a9d8da98d6bcd4\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:45:17-63
+391        </provider>
+392
+393        <activity
+393-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\14320\.gradle\caches\transforms-2\files-2.1\144a4db02444d288b8a9d8da98d6bcd4\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:48:9-61:20
+394            android:name="com.squareup.leakcanary.internal.DisplayLeakActivity"
+394-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\14320\.gradle\caches\transforms-2\files-2.1\144a4db02444d288b8a9d8da98d6bcd4\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:49:13-80
+395            android:enabled="false"
+395-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\14320\.gradle\caches\transforms-2\files-2.1\144a4db02444d288b8a9d8da98d6bcd4\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:50:13-36
+396            android:icon="@mipmap/leak_canary_icon"
+396-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\14320\.gradle\caches\transforms-2\files-2.1\144a4db02444d288b8a9d8da98d6bcd4\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:51:13-52
+397            android:label="@string/leak_canary_display_activity_label"
+397-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\14320\.gradle\caches\transforms-2\files-2.1\144a4db02444d288b8a9d8da98d6bcd4\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:52:13-71
+398            android:process=":leakcanary"
+398-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\14320\.gradle\caches\transforms-2\files-2.1\144a4db02444d288b8a9d8da98d6bcd4\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:53:13-42
+399            android:taskAffinity="com.squareup.leakcanary.com.huari.client"
+399-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\14320\.gradle\caches\transforms-2\files-2.1\144a4db02444d288b8a9d8da98d6bcd4\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:54:13-76
+400            android:theme="@style/leak_canary_LeakCanary.Base" >
+400-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\14320\.gradle\caches\transforms-2\files-2.1\144a4db02444d288b8a9d8da98d6bcd4\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:55:13-63
+401            <intent-filter>
+401-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:119:13-123:29
+402                <action android:name="android.intent.action.MAIN" />
+402-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:120:17-69
+402-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:120:25-66
+403
+404                <category android:name="android.intent.category.LAUNCHER" />
+404-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:122:17-77
+404-->D:\619\Handheld\hrClient\src\main\AndroidManifest.xml:122:27-74
+405            </intent-filter>
+406        </activity>
+407        <activity
+407-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\14320\.gradle\caches\transforms-2\files-2.1\144a4db02444d288b8a9d8da98d6bcd4\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:62:9-71:68
+408            android:name="com.squareup.leakcanary.internal.RequestStoragePermissionActivity"
+408-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\14320\.gradle\caches\transforms-2\files-2.1\144a4db02444d288b8a9d8da98d6bcd4\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:63:13-93
+409            android:enabled="false"
+409-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\14320\.gradle\caches\transforms-2\files-2.1\144a4db02444d288b8a9d8da98d6bcd4\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:64:13-36
+410            android:excludeFromRecents="true"
+410-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\14320\.gradle\caches\transforms-2\files-2.1\144a4db02444d288b8a9d8da98d6bcd4\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:65:13-46
+411            android:icon="@mipmap/leak_canary_icon"
+411-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\14320\.gradle\caches\transforms-2\files-2.1\144a4db02444d288b8a9d8da98d6bcd4\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:66:13-52
+412            android:label="@string/leak_canary_storage_permission_activity_label"
+412-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\14320\.gradle\caches\transforms-2\files-2.1\144a4db02444d288b8a9d8da98d6bcd4\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:67:13-82
+413            android:process=":leakcanary"
+413-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\14320\.gradle\caches\transforms-2\files-2.1\144a4db02444d288b8a9d8da98d6bcd4\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:68:13-42
+414            android:roundIcon="@mipmap/leak_canary_icon"
+414-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\14320\.gradle\caches\transforms-2\files-2.1\144a4db02444d288b8a9d8da98d6bcd4\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:69:13-57
+415            android:taskAffinity="com.squareup.leakcanary.com.huari.client"
+415-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\14320\.gradle\caches\transforms-2\files-2.1\144a4db02444d288b8a9d8da98d6bcd4\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:70:13-76
+416            android:theme="@style/leak_canary_Theme.Transparent" />
+416-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\14320\.gradle\caches\transforms-2\files-2.1\144a4db02444d288b8a9d8da98d6bcd4\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:71:13-65
+417        <activity
+417-->[:guiCtrl] D:\619\Handheld\guiCtrl\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:9-23:20
+418            android:name="com.huari.diskactivity.DiskActivity"
+418-->[:guiCtrl] D:\619\Handheld\guiCtrl\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-63
+419            android:label="@string/app_name" >
+419-->[:guiCtrl] D:\619\Handheld\guiCtrl\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:13-45
+420        </activity>
+421        <activity
+421-->[:guiCtrl] D:\619\Handheld\guiCtrl\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:9-27:20
+422            android:name="com.huari.diskactivity.TwoActivity"
+422-->[:guiCtrl] D:\619\Handheld\guiCtrl\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-62
+423            android:label="@string/app_name" >
+423-->[:guiCtrl] D:\619\Handheld\guiCtrl\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-45
+424        </activity>
+425        <activity
+425-->[:guiCtrl] D:\619\Handheld\guiCtrl\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:9-31:20
+426            android:name="com.huari.diskactivity.LastActivity"
+426-->[:guiCtrl] D:\619\Handheld\guiCtrl\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-63
+427            android:label="@string/app_name" >
+427-->[:guiCtrl] D:\619\Handheld\guiCtrl\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-45
+428        </activity>
+429        <activity
+429-->[:guiCtrl] D:\619\Handheld\guiCtrl\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:9-35:20
+430            android:name="com.huari.diskactivity.ListViewsActivity"
+430-->[:guiCtrl] D:\619\Handheld\guiCtrl\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:13-68
+431            android:label="@string/title_activity_list_views" >
+431-->[:guiCtrl] D:\619\Handheld\guiCtrl\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:13-62
+432        </activity>
+433        <activity
+433-->[:guiCtrl] D:\619\Handheld\guiCtrl\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:9-39:20
+434            android:name="com.huari.diskactivity.TestActivity"
+434-->[:guiCtrl] D:\619\Handheld\guiCtrl\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:13-63
+435            android:label="@string/title_activity_test" >
+435-->[:guiCtrl] D:\619\Handheld\guiCtrl\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:13-56
+436        </activity>
+437        <activity
+437-->[:guiCtrl] D:\619\Handheld\guiCtrl\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:9-43:20
+438            android:name="com.huari.diskactivity.PartWaveActivity"
+438-->[:guiCtrl] D:\619\Handheld\guiCtrl\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-67
+439            android:label="@string/title_activity_part_wave" >
+439-->[:guiCtrl] D:\619\Handheld\guiCtrl\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:13-61
+440        </activity>
+441        <activity
+441-->[:guiCtrl] D:\619\Handheld\guiCtrl\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:9-47:20
+442            android:name="com.huari.diskactivity.SingActivity"
+442-->[:guiCtrl] D:\619\Handheld\guiCtrl\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-63
+443            android:label="@string/title_activity_sing" >
+443-->[:guiCtrl] D:\619\Handheld\guiCtrl\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:13-56
+444        </activity>
+445    </application>
+446
+447</manifest>

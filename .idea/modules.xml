@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Handheld.iml" filepath="$PROJECT_DIR$/Handheld.iml" group="Handheld" />
+      <module fileurl="file://$PROJECT_DIR$/guiCtrl/guiCtrl.iml" filepath="$PROJECT_DIR$/guiCtrl/guiCtrl.iml" group="Handheld/guiCtrl" />
+      <module fileurl="file://$PROJECT_DIR$/hrClient/hrClient.iml" filepath="$PROJECT_DIR$/hrClient/hrClient.iml" group="Handheld/hrClient" />
+    </modules>
+  </component>
+</project>

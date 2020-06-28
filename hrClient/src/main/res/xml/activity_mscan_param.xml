@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <PreferenceCategory android:title="">
+        <ListPreference
+            android:defaultValue="120"
+            android:entries="@array/Attenuation_list"
+            android:entryValues="@array/Attenuation_list"
+            android:key="Attenuation"
+            android:summary=""
+            android:title="接收机衰减 （dB）"/>
+
+        <ListPreference
+            android:defaultValue=""
+            android:entries="@array/RFMode_list"
+            android:entryValues="@array/RFMode_list"
+            android:key="RFMode"
+            android:summary=""
+            android:title="射频模式"/>
+
+        <ListPreference
+            android:defaultValue="PEAK"
+            android:entries="@array/Detection_list"
+            android:entryValues="@array/Detection_list"
+            android:key="Detection"
+            android:summary=""
+            android:title="检波方式"/>
+
+        <EditTextPreference
+            android:defaultValue="88.9"
+            android:key="CenterFreq1"
+            android:summary="单位: MHz"
+            android:title="中心频率 （MHz）"/>
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/IFBandWidth_list"
+            android:entryValues="@array/IFBandWidth_list"
+            android:key="Ifbw1"
+            android:summary="单位: kHz"
+            android:title="中频带宽（kHz）"/>
+
+        <EditTextPreference
+            android:defaultValue="90.1"
+            android:key="CenterFreq2"
+            android:summary="单位: MHz"
+            android:title="中心频率 （MHz）"/>
+        <ListPreference
+            android:defaultValue="100"
+            android:entries="@array/IFBandWidth_list"
+            android:entryValues="@array/IFBandWidth_list"
+            android:key="Ifbw2"
+            android:summary="单位: kHz"
+            android:title="中频带宽（kHz）"/>
+
+        <EditTextPreference
+            android:defaultValue="95.5"
+            android:key="CenterFreq3"
+            android:summary="单位: MHz"
+            android:title="中心频率 （MHz）"/>
+        <ListPreference
+            android:defaultValue="100"
+            android:entries="@array/IFBandWidth_list"
+            android:entryValues="@array/IFBandWidth_list"
+            android:key="Ifbw3"
+            android:summary="单位: kHz"
+            android:title="中频带宽（kHz）"/>
+
+        <EditTextPreference
+            android:defaultValue="90.1"
+            android:key="CenterFreq4"
+            android:summary="单位: MHz"
+            android:title="中心频率 （MHz）"/>
+        <ListPreference
+            android:defaultValue="100"
+            android:entries="@array/IFBandWidth_list"
+            android:entryValues="@array/IFBandWidth_list"
+            android:key="Ifbw4"
+            android:summary="单位: kHz"
+            android:title="中频带宽（kHz）"/>
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

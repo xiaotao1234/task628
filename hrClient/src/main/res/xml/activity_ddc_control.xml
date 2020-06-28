@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title=" ">
+        <CheckBoxPreference
+            android:title="显示主频谱"
+            android:key="ddc_main_channel"
+            android:summary=""
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="ddc1_ch_switch"
+            android:title="通道1频谱开关"
+            android:summary=""
+            android:defaultValue="true" />
+        <SwitchPreference
+            android:key="ddc1_audio_switch"
+            android:title="通道1音频开关"
+            android:summary=""
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="ddc2_ch_switch"
+            android:title="通道2频谱开关"
+            android:summary=""
+            android:defaultValue="true" />
+        <SwitchPreference
+            android:key="ddc2_audio_switch"
+            android:title="通道2音频开关"
+            android:summary=""
+            android:defaultValue="true" />
+
+        <ListPreference
+            android:defaultValue="电平"
+            android:entries="@array/level_strength_list"
+            android:entryValues="@array/level_strength_list"
+            android:key="ddc_level_strength"
+            android:summary="单位: dBuv"
+            android:title="电平场强切换"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>

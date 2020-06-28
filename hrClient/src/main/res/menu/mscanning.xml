@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.huari.client.PinDuanScanningActivity" >
+
+    <item
+        android:id="@+id/pinduanstart"
+        android:orderInCategory="100"
+        android:title="@string/pinduansaomiao"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/mscanset" android:orderInCategory="100" android:title="设置" app:showAsAction="never" />
+
+    
+    <item 
+        android:id="@+id/caputure"
+        android:orderInCategory="100" 
+        android:title="手机横向"
+        app:showAsAction="never"/>
+
+</menu>

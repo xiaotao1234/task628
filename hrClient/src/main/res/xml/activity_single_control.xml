@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title=" ">
+        <CheckBoxPreference
+            android:title="瀑布图"
+            android:key="falls_switch"
+            android:summary="显示瀑布面"
+            android:defaultValue="true" />
+        <SwitchPreference
+            android:key="max_switch"
+            android:title="显示最大值"
+            android:summary="电平图显示最大值"
+            android:defaultValue="true"
+            />
+        <SwitchPreference
+            android:key="min_switch"
+            android:title="显示最小值"
+            android:summary="电平图显示最小值"
+            android:defaultValue="true"
+            />
+        <SwitchPreference
+            android:key="avg_switch"
+            android:title="显示平均值"
+            android:summary="电平图显示平均值"
+            android:defaultValue="true"
+            />
+
+        <ListPreference
+            android:defaultValue="电平"
+            android:entries="@array/level_strength_list"
+            android:entryValues="@array/level_strength_list"
+            android:key="level_strength"
+            android:summary="单位: dBuv"
+            android:title="电平场强切换"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>

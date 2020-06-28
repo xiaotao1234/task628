@@ -1,0 +1,17 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/part1"
+        android:orderInCategory="100"
+        android:icon="@drawable/e"
+        android:title="录音"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/full1"
+        android:orderInCategory="100"
+        android:icon="@drawable/e"
+        android:title="IQ数据保存"
+        app:showAsAction="never" />
+
+</menu>

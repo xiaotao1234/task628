@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/window_bg_black"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/window_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_20"
+        android:textSize="@dimen/dp_11"
+        android:text="确定删除文件？"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_15"
+        android:layout_marginBottom="@dimen/dp_15"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="@dimen/dp_60"
+            android:layout_height="@dimen/dp_25"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_bg_unsliod"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="#000000"
+            android:textSize="@dimen/dp_10" />
+
+        <TextView
+            android:id="@+id/ensure"
+            android:layout_width="@dimen/dp_60"
+            android:layout_height="@dimen/dp_25"
+            android:layout_marginStart="@dimen/dp_15"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_bg_unsliod"
+            android:gravity="center"
+            android:text="确定"
+            android:textColor="#000000"
+            android:textSize="@dimen/dp_10" />
+    </LinearLayout>
+
+</LinearLayout>

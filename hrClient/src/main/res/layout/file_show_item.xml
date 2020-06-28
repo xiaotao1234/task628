@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/press_background"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/file_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40">
+
+        <ImageView
+            android:id="@+id/file_box"
+            android:layout_width="@dimen/dp_17"
+            android:layout_height="@dimen/dp_17"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/dp_26"
+            android:src="@drawable/file_icon" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/file_name"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:textSize="@dimen/dp_11"
+                android:layout_marginStart="20sp"
+                android:gravity="center_vertical"
+                android:textColor="#BB000000"
+                tools:ignore="Suspicious0dp" />
+            <TextView
+                android:id="@+id/explain"
+                android:layout_marginStart="20sp"
+                android:layout_width="match_parent"
+                android:textColor="#88000000"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:textSize="@dimen/dp_8"
+                android:layout_height="0dp"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/check"
+            android:layout_width="@dimen/dp_26"
+            android:layout_height="@dimen/dp_26"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="@dimen/dp_35"
+            android:src="@drawable/not_check_icon"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:background="#22000000" />
+</LinearLayout>

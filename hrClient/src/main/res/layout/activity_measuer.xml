@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@android:color/holo_green_dark"
+            app:contentInsetEnd="0dp"
+            app:contentInsetLeft="0dp"
+            app:contentInsetRight="0dp"
+            app:contentInsetStart="0dp"
+
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/dp_20"
+                android:background="@android:color/holo_green_dark"
+
+                android:orientation="horizontal"
+                android:scrollbars="horizontal|vertical|none">
+
+                <ImageButton
+                    android:id="@+id/navigat_Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="@dimen/dp_5"
+                    android:background="@android:color/holo_green_dark"
+                    android:contentDescription="@string/navigat"
+                    android:scaleType="fitStart"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/ic_playlist_play_white_24dp"
+                    tools:ignore="RtlHardcoded"
+                    tools:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="@dimen/dp_125"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/sp_10"
+                    android:gravity="left"
+                    android:text="@string/app_name"
+                    android:textColor="@color/net"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:visibility="visible"
+                    tools:ignore="RtlHardcoded"
+                    tools:visibility="visible" />
+
+                <ImageButton
+                    android:id="@+id/play_Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginStart="@dimen/dp_27"
+                    android:background="@android:color/holo_green_dark"
+                    android:contentDescription="@string/play"
+                    android:paddingLeft="@dimen/dp_9"
+                    android:paddingRight="@dimen/dp_9"
+                    android:paddingTop="@dimen/dp_3"
+                    android:paddingBottom="@dimen/dp_4"
+                    android:scaleType="matrix"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/ic_play_arrow_white_24dp"
+                    tools:ignore="RtlHardcoded"
+                    tools:visibility="visible" />
+
+                <ImageButton
+                    android:id="@+id/save_Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/dp_4"
+                    android:layout_gravity="left"
+                    android:layout_marginStart="@dimen/dp_25"
+                    android:background="@android:color/holo_green_dark"
+                    android:scaleType="matrix"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/ic_save_white_24dp"
+                    tools:visibility="visible"
+                    tools:ignore="RtlHardcoded"
+                    android:contentDescription="@string/play" />
+
+                <ImageButton
+                    android:id="@+id/set_Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/dp_4"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="@dimen/dp_25"
+                    android:scaleType="matrix"
+                    android:background="@android:color/holo_green_dark"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/ic_list_white_24dp"
+                    tools:visibility="visible"
+                    tools:ignore="RtlHardcoded"
+                    android:contentDescription="@string/config" />
+
+                <ImageButton
+                    android:id="@+id/more_Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/dp_4"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="@dimen/dp_15"
+                    android:scaleType="matrix"
+                    android:background="@android:color/holo_green_dark"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/ic_more_vert_white_24dp"
+                    tools:visibility="visible"
+                    tools:ignore="RtlHardcoded"
+                    android:contentDescription="@string/config" />
+
+
+
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_30"
+            android:background="#3F51B5"
+            app:tabGravity="fill"
+            app:tabIndicatorColor="@android:color/holo_green_dark"
+            app:tabIndicatorGravity="stretch"
+            app:tabMode="scrollable" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/dp_85"
+        android:layout_marginBottom="@dimen/dp_35"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
